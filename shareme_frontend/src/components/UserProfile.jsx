@@ -78,7 +78,7 @@ const UserProfile = () => {
                   <button
                     type="button"
                     className=" bg-white p-2 rounded-full cursor-pointer outline-none shadow-md"
-                    onClick={() => logout}
+                    onClick={logout}
                   >
                     <AiOutlineLogout color="red" fontSize={21} />
                   </button>
